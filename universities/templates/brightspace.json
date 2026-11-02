@@ -1,0 +1,11 @@
+{
+  "id": "<country>_<state>_<shortname>",
+  "name": "<Full University Name>",
+  "lms_type": "brightspace",
+  "base_url": "https://<your-school>.brightspace.com",
+  "login_url": "https://<your-school>.brightspace.com/d2l/login",
+  "sso_login_url": "https://<your-school>.brightspace.com/d2l/lp/auth/saml/initiate-login?entityId=<idp-entity-id>&target=%2fd2l%2fhome",
+  "success_url_contains": "/d2l/home",
+  "session_cookies": ["d2lSessionVal", "d2lSecureSessionVal"],
+  "notes": "<SSO provider and MFA notes, e.g. Microsoft Entra + Authenticator>"
+}

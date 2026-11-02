@@ -1,0 +1,11 @@
+{
+  "id": "<country>_<state>_<shortname>",
+  "name": "<Full University Name>",
+  "lms_type": "canvas",
+  "base_url": "https://<your-school>.instructure.com",
+  "login_url": "https://<your-school>.instructure.com/login",
+  "sso_login_url": "https://<your-school>.instructure.com/login/saml",
+  "success_url_contains": "https://<your-school>.instructure.com/",
+  "session_cookies": ["canvas_session", "_csrf_token"],
+  "notes": "<SSO provider and MFA notes>"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "us_ga_gastate",
+  "name": "Georgia State University",
+  "lms_type": "brightspace",
+  "base_url": "https://gastate.view.usg.edu",
+  "login_url": "https://gastate.view.usg.edu/d2l/login",
+  "sso_login_url": "https://gastate.view.usg.edu/d2l/lp/auth/saml/initiate-login?entityId=https://idp.gsu.edu/idp/shibboleth&target=%2fd2l%2fhome",
+  "success_url_contains": "/d2l/home",
+  "session_cookies": ["d2lSessionVal", "d2lSecureSessionVal"],
+  "notes": "USG CampusID + Duo; enable 30-day device trust for silent refresh"
+}

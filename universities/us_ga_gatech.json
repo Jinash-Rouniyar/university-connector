@@ -1,0 +1,11 @@
+{
+  "id": "us_ga_gatech",
+  "name": "Georgia Institute of Technology",
+  "lms_type": "canvas",
+  "base_url": "https://gatech.instructure.com",
+  "login_url": "https://gatech.instructure.com/login",
+  "sso_login_url": "https://gatech.instructure.com/login/saml",
+  "success_url_contains": "https://gatech.instructure.com/",
+  "session_cookies": ["canvas_session", "_csrf_token"],
+  "notes": "GT Login (SAML via idp.gatech.edu, CAS at sso.gatech.edu) + Duo. Canvas support is untested against a live account."
+}
